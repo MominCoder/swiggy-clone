@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inner {
+  padding: 50px 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align_start {
+  align-items: flex-start;
+}
+
+.justify_left {
+  justify-content: flex-start;
+}
+
+.flex_sb {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.pointer {
+  cursor: pointer;
+}

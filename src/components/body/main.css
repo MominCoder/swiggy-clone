@@ -1,0 +1,25 @@
+.cards {
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.card {
+  width: 16.67%;
+}
+
+@media only screen and (width < 768px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media only screen and (width < 500px) {
+  .cards {
+    row-gap: 50px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}

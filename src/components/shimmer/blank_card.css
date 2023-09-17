@@ -1,0 +1,12 @@
+.empty_cards {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.empty_card {
+  height: 250px;
+  width: 250px;
+  background-color: lightgray;
+}

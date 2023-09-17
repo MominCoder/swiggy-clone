@@ -1,0 +1,32 @@
+header {
+  padding: 10px 0;
+}
+
+.logo h1 {
+  font-size: 30px;
+}
+
+nav ul {
+  column-gap: 50px;
+}
+
+.searchBox {
+  flex: 0 0 50%;
+  position: relative;
+}
+
+.searchBox input {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.searchBox input:focus {
+  border-bottom: 1px solid orchid;
+}
+
+.searchify {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
